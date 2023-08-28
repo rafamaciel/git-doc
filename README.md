@@ -10,23 +10,23 @@ To install Git Doc via curl on Linux or macOS, open your terminal and execute th
 
 ```bash
 # macOS amd64
-curl -Lo git-doc https://github.com/your-username/git-doc/releases/download/1.0.0/git-doc-darwin-amd64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
+curl -Lo git-doc https://github.com/rafamaciel/git-doc/releases/download/1.0.0/git-doc-darwin-amd64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
 
 # macOS arm64
-curl -Lo git-doc https://github.com/your-username/git-doc/releases/download/1.0.0/git-doc-darwin-arm64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
+curl -Lo git-doc https://github.com/rafamaciel/git-doc/releases/download/1.0.0/git-doc-darwin-arm64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
 
 # Linux amd64
-curl -Lo git-doc https://github.com/your-username/git-doc/releases/download/1.0.0/git-doc-linux-amd64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
+curl -Lo git-doc https://github.com/rafamaciel/git-doc/releases/download/1.0.0/git-doc-linux-amd64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
 
 # Linux arm64
-curl -Lo git-doc https://github.com/your-username/git-doc/releases/download/1.0.0/git-doc-linux-arm64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
+curl -Lo git-doc https://github.com/rafamaciel/git-doc/releases/download/1.0.0/git-doc-linux-arm64 && chmod +x git-doc && sudo mv git-doc /usr/local/bin/
 ```
 
 #### Windows (PowerShell)
 To install Git Doc via curl on Windows using PowerShell, execute the following command:
 
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/your-username/git-doc/releases/latest/download/git-doc-windows-amd64.exe" -OutFile "git-doc.exe"
+Invoke-WebRequest -Uri "https://github.com/rafamaciel/git-doc/releases/latest/download/git-doc-windows-amd64.exe" -OutFile "git-doc.exe"
 ```
 
 ### Installation as Git Alias
